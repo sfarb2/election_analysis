@@ -28,5 +28,15 @@ The analysis of the election shows that:
   - Diana DeGette, who received 73.8% of the vote and 272,892 total votes.
   
  ## Challenge Overview
+ ### 1. Overview of Election Audit
+ After previously calculating and displaying the voting breakdown by candidate, we also wanted to determine the number and percentage of votes by county.
  
+ ### 2. Election-Audit Results
+ - This congressional district saw 369,711 total votes cast.
+ - Denver dominated the voting, accounting for nearly 83% of all ballots cast.
+ - Denver county contributed almost eight times more votes than the next-closest county in the district (Jefferson).
+ ///////INSERT PICTURE HERE/////////
+ - There was a single candidate who dominated the voting almost as thoroughly as Denver did on the county side.
+ ///////INSERT PICTURE HERE/////////
+ - Diana DeGette received 272,892 votes (74%); that's better than three times more than her closest competitor, Charles Casper Stockham (85,213 | 23.0%).
  ## Challenge Summary
