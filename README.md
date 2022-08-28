@@ -5,17 +5,17 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
-3. Calculate the totla number of votes each candidate received.
+3. Calculate the total number of votes each candidate received.
 4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular vote.
 
 ## Resources
 - Data Source: election_results.csv
-- Software: Python 3.6.1, Visual Studio Code, 1.38.1
+- Software: Python | Visual Studio Code
 
 ## Summary
 The analysis of the election shows that:
-- There were 369,711 total votes cast in the election.
+- There were 369,711 total votes cast.
 - The candidates were:
   - Charles Casper Stockham
   - Diana DeGette
@@ -35,8 +35,9 @@ The analysis of the election shows that:
  - This congressional district saw 369,711 total votes cast.
  - Denver dominated the voting, accounting for nearly 83% of all ballots cast.
  - Denver county contributed almost eight times more votes than the next-closest county in the district (Jefferson).
- ///////INSERT PICTURE HERE/////////
+ ![Election Results by County](/county_vote_breakdown.png)
  - There was a single candidate who dominated the voting almost as thoroughly as Denver did on the county side.
- ///////INSERT PICTURE HERE/////////
+ ![Election Results by Candidate](/votes_by_candidate.png)
  - Diana DeGette received 272,892 votes (74%); that's better than three times more than her closest competitor, Charles Casper Stockham (85,213 | 23.0%).
  ## Challenge Summary
+ Perhaps the best news for our elections team is that this script can be reused for essentially any future election. By simply reading in a similarly-constructed CSV file (ballot IDs, counties, candidates), we should be able to assess voting results in any scenario. Modifications to the script largely depend on the different types of elections that may be under examination, but adjustments could be made to account for additional values (e.g. a state column in a national popular vote) or candidate results could be broken down further by county to show if specific municipalities supported certain candidates to differing degrees.
